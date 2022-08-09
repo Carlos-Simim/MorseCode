@@ -49,6 +49,16 @@ namespace MorseCode
               {'0', "-----"},
             };
 
+        public static string StringToMorse(char[] input)
+        {
+            string output = "";
+            foreach (char c in input)
+            {
+                output = output + Dictionary._textToMorse[c] + " ";
+            }
+
+            return output;
+        }
 
     }
 }
