@@ -1,0 +1,15 @@
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\MorseCode.exe.config
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\MorseCode.exe
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\MorseCode.pdb
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.csproj.AssemblyReference.cache
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.csproj.CoreCompileInputs.cache
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.exe
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.pdb
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\MorseCode.exe.manifest
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\MorseCode.application
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.exe.manifest
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.application
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.csproj.Fody.CopyLocal.cache
+C:\Users\carlos.simim\Desktop\MorseCode\MorseCode\obj\Debug\MorseCode.csproj.CopyComplete
