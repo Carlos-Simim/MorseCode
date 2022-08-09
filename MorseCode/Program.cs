@@ -18,7 +18,14 @@ namespace MorseCode
                 Console.Write("Insira a frase que você deseja traduzir para morse: ");
                 string input = Console.ReadLine();
                 input = input.ToUpper();
-                string output = Dictionary.StringToMorse(input.ToCharArray());
+                string output = "";
+                try
+                {
+                    output = Dictionary.StringToMorse(input.ToCharArray());
+                }catch (Exception ex)
+                {
+                    Console.WriteLine("Entrada inválida!");
+                }
                 Console.WriteLine("Código morse: " + output);
                 Console.WriteLine("\n" + "Você deseja traduzir mais alguma frase?");
                 Console.WriteLine("Resposta (S para Sim/N para Não): ");
