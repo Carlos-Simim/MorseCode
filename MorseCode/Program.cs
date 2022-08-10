@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MorseCode
@@ -26,7 +27,29 @@ namespace MorseCode
                 {
                     Console.WriteLine("Entrada inválida!");
                 }
-                Console.WriteLine("Código morse: " + output);
+                Console.Write("\nCódigo morse: ");
+
+                foreach(char c in output)
+                {
+                    if (c == '-')
+                    {
+                        Console.Beep(800, 200);
+                        Console.Write(c);
+                        Thread.Sleep(200);
+                    }
+                    if(c == '.')
+                    {
+                        Console.Beep(800, 100);
+                        Console.Write(c);
+                        Thread.Sleep(100);
+                    }
+                    if(c!= '-' && c!='.')
+                    {
+                        Console.Write(c);
+                        Thread.Sleep(200);
+                    }
+                }
+
                 Console.WriteLine("\n" + "Você deseja traduzir mais alguma frase?");
                 Console.WriteLine("Resposta (S para Sim/N para Não): ");
 
@@ -45,7 +68,7 @@ namespace MorseCode
                         Console.WriteLine("Por favor, responda apenas com S para Sim ou N para Não: ");
                     }
                 }
-            }
+            }            
             Console.WriteLine("\nPressione qualquer tecla para fechar o programa!");
             Console.ReadKey();
         }
